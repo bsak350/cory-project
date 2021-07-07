@@ -13,7 +13,9 @@ p {
 }
 
 @media (max-width: 560px) {
-  h1 {
-    text-align: left;
+  h2,
+  h3,
+  p {
+    text-align: center;
   }
 }
