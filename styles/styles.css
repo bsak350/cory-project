@@ -12,7 +12,7 @@ p {
   margin: 20px;
 }
 
-@media (width: 560px) {
+@media (max-width: 560px) {
   h1 {
     text-align: left;
   }
