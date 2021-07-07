@@ -2,3 +2,12 @@ h1 {
   text-align: center;
   margin-top: 80px;
 }
+
+h2 {
+  margin: 10px;
+}
+
+h3,
+p {
+  margin: 20px;
+}
