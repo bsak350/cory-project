@@ -15,12 +15,17 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-.btn-info {
-  color: white;
+.contact-box h3 {
+  color: #085ed7;
 }
 
-.btn-info:hover {
-  color: #30d2f2;
+.btn-primary {
+  color: white;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  color: #085ed7;
   background-color: white;
   transition: all 100ms ease-in-out;
 }
@@ -38,6 +43,14 @@ nav a {
   h2,
   h3,
   p {
+    text-align: center;
+  }
+
+  img {
+    margin-bottom: 15px;
+  }
+
+  .contact-box {
     text-align: center;
   }
 }
