@@ -12,6 +12,20 @@ p {
   margin: 20px;
 }
 
+nav a {
+  transition: all 100ms ease-in-out;
+}
+
+.btn-info {
+  color: white;
+}
+
+.btn-info:hover {
+  color: #30d2f2;
+  background-color: white;
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
