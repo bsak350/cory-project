@@ -54,6 +54,8 @@ nav a {
 
   img {
     margin-bottom: 15px;
+    max-width: 450px;
+    max-height: 450px;
   }
 
   .contact-box {
