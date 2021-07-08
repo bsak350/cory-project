@@ -47,7 +47,8 @@ nav a {
 @media (max-width: 560px) {
   h2,
   h3,
-  p {
+  p,
+  img {
     text-align: center;
   }
 
@@ -66,14 +67,12 @@ nav a {
   .contact-headings,
   .contact-links {
     margin: 0;
-
   }
 
   .contact-headings {
-      margin-top: 20px;
+    margin-top: 20px;
   }
-    .contact-links {
-        margin-bottom: 5px;
-    }
+  .contact-links {
+    margin-bottom: 5px;
   }
 }
