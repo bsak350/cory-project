@@ -35,13 +35,17 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+.contact-headings,
 .contact-links {
-  margin-left: 100px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .contact-headings {
-  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.contact-links {
+  margin-bottom: 5px;
 }
 
 @media (max-width: 560px) {
@@ -64,17 +68,5 @@ nav a {
 
   .contact-box h3 {
     margin-bottom: 0;
-  }
-
-  .contact-headings,
-  .contact-links {
-    margin: 0;
-  }
-
-  .contact-headings {
-    margin-top: 20px;
-  }
-  .contact-links {
-    margin-bottom: 5px;
   }
 }
