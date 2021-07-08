@@ -25,6 +25,15 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+.contact-links {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.contact-headings {
+  margin-left: 20px;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
