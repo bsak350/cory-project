@@ -57,10 +57,14 @@ nav a {
 
   .contact-box {
     text-align: center;
-    margin: 0;
   }
 
   .contact-box h3 {
     margin-bottom: 0;
+  }
+
+  .contact-headings,
+  .contact-links {
+    margin: 0;
   }
 }
