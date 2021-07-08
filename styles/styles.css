@@ -20,10 +20,6 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-.navbar-brand {
-  margin-left: 60px;
-}
-
 .contact-box h3 {
   color: black;
 }
