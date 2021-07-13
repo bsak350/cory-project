@@ -48,6 +48,14 @@ nav a {
   margin-bottom: 5px;
 }
 
+.service-heading {
+  margin-left: 30px;
+}
+
+.service-list {
+  margin-left: 20px;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
