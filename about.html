@@ -58,14 +58,31 @@
                 >About</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
-                class="nav-link"
-                aria-current="page"
+                class="nav-link dropdown-toggle"
                 href="services.html"
-                title="Martinesque Services"
-                >Services</a
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
+                Services
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="services.html#seller-consulting"
+                  >Seller Central Consulting</a
+                >
+                <a class="dropdown-item" href="services.html#vendor-consulting"
+                  >Vendor Central Consulting</a
+                >
+                <a class="dropdown-item" href="services.html#plan-assistance"
+                  >Plan of Action Assistance</a
+                >
+              </div>
             </li>
             <li class="nav-item">
               <a
