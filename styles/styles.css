@@ -95,6 +95,11 @@ ul {
   border: 2px solid blue;
 }
 
+.seo-picture {
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
@@ -128,6 +133,10 @@ ul {
   .service-heading {
     margin: 0;
     margin-top: 30px;
+  }
+
+  .service-list {
+    margin-left: 0;
   }
 
   .col-md-4 {
