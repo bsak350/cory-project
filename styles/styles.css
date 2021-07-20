@@ -1,10 +1,10 @@
+body {
+  background: lightskyblue;
+}
+
 h1 {
   text-align: center;
   margin-top: 80px;
-}
-
-h2 {
-  margin: 10px;
 }
 
 h3 {
@@ -54,6 +54,10 @@ nav a {
 
 .service-list {
   margin-left: 50px;
+}
+
+.service-info img {
+  border: 2px solid blue;
 }
 
 @media (max-width: 560px) {
