@@ -35,6 +35,17 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+.btn-info {
+  color: white;
+  font-size: 20px;
+}
+
+.btn-info:hover {
+  color: #30d2f2;
+  background-color: white;
+  transition: all 100ms ease-in-out;
+}
+
 .contact-headings,
 .contact-links {
   margin: 0;
