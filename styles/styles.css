@@ -113,6 +113,10 @@ ul {
     max-height: 450px;
   }
 
+  .navbar-brand {
+    margin-left: 0;
+  }
+
   .contact-box {
     text-align: center;
   }
