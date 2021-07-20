@@ -103,6 +103,10 @@ ul {
     text-align: center;
   }
 
+  h1 {
+    font-size: 40px;
+  }
+
   img {
     margin-bottom: 15px;
     max-width: 450px;
