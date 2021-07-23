@@ -100,6 +100,13 @@ ul {
   margin: 0 auto;
 }
 
+#contact-card {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
@@ -150,5 +157,10 @@ ul {
   #logo {
     max-width: 250px;
     max-height: 250px;
+  }
+
+  .contact-container {
+    max-width: 22rem;
+    margin: 0 auto;
   }
 }
