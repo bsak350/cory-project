@@ -169,4 +169,8 @@ h1.card-title {
     max-width: 22rem;
     margin: 0 auto;
   }
+
+  h1.card-title {
+    text-align: center;
+  }
 }
