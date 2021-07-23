@@ -111,6 +111,11 @@ ul {
   margin-top: 73px;
 }
 
+h1.card-title {
+  text-align: left;
+  font-size: 42px;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
