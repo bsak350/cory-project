@@ -108,15 +108,14 @@ ul {
 }
 
 .logo-header {
-  margin-top: 73px;
-  margin-left: 0;
   display: block;
   margin: 0 auto;
+  margin-top: 73px;
 }
 
 h1.card-title {
   text-align: left;
-  font-size: 35px;
+  font-size: 25px;
   margin: 0;
   margin-top: 20px;
 }
@@ -175,5 +174,10 @@ h1.card-title {
 
   h1.card-title {
     text-align: center;
+  }
+
+  .logo-header {
+    width: 350px;
+    margin-top: 73px;
   }
 }
