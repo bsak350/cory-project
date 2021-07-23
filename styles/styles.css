@@ -5,7 +5,7 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
   font-family: "Bebas Neue", cursive;
   font-size: 50px;
 }
@@ -105,6 +105,10 @@ ul {
   margin: 0 auto;
   text-align: center;
   margin-top: 100px;
+}
+
+.logo-header {
+  margin-top: 73px;
 }
 
 @media (max-width: 560px) {
