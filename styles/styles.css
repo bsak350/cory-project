@@ -170,14 +170,21 @@ h1.card-title {
   .contact-container {
     max-width: 22rem;
     margin: 0 auto;
+    padding: 4px;
   }
 
   h1.card-title {
     text-align: center;
+    margin: 0;
   }
 
   .logo-header {
     width: 250px;
     margin-top: 73px;
+  }
+
+  img#logo {
+    margin: 0;
+    padding: 0;
   }
 }
