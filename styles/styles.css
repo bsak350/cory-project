@@ -165,13 +165,18 @@ h1.card-title {
     padding: 15px;
   }
 
-  #logo {
-    max-width: 250px;
-    max-height: 250px;
-  }
-
   .contact-container {
     max-width: 22rem;
     margin: 0 auto;
+  }
+
+  h1.card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #logo-photo {
+    max-width: 200px;
+    max-height: 200px;
   }
 }
