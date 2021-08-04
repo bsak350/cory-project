@@ -40,6 +40,11 @@ ul {
   font-size: 20px;
 }
 
+.footer {
+  font-family: monospace;
+  font-size: 15px;
+}
+
 .accordion-button {
   font-size: 24px;
 }
