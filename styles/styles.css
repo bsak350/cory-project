@@ -5,8 +5,7 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 30px;
-  font-family: "Bebas Neue", cursive;
+  margin-top: 200px;
   font-size: 50px;
 }
 
@@ -110,12 +109,6 @@ ul {
   margin: 0 auto;
   text-align: center;
   margin-top: 100px;
-}
-
-.logo-header {
-  display: block;
-  margin: 0 auto;
-  margin-top: 73px;
 }
 
 h1.card-title {
