@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background: #d39ab1;
   font-family: "Roboto", sans-serif;
 }
 
@@ -46,6 +46,13 @@ ul {
 
 .accordion-button {
   font-size: 24px;
+  color: black;
+  background: white;
+}
+
+.accordion-button:hover {
+  background: black;
+  color: white;
 }
 
 .contact-box h3 {
@@ -72,6 +79,22 @@ ul {
   color: black;
   background-color: white;
   transition: all 100ms ease-in-out;
+}
+
+.btn-contact {
+  background: white;
+  color: #826993;
+  font-size: 20px;
+}
+
+.btn-contact:hover {
+  background: #826993;
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+.source-link {
+  color: black;
 }
 
 .contact-headings,

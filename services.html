@@ -105,25 +105,27 @@
     <div class="container text-center">
       <h1 class="mb-5">Martinesque Services</h1>
     </div>
+
     <div class="container">
-      <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <h2 class="accordion-header" id="flush-headingOne">
             <button
-              class="accordion-button"
+              class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseOne"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
             >
               Seller Central Consulting
             </button>
           </h2>
           <div
-            id="panelsStayOpen-collapseOne"
+            id="flush-collapseOne"
             class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingOne"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
               <ul class="service-list">
@@ -137,22 +139,23 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <h2 class="accordion-header" id="flush-headingTwo">
             <button
-              class="accordion-button"
+              class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseTwo"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseTwo"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
             >
               Vendor Central Consulting
             </button>
           </h2>
           <div
-            id="panelsStayOpen-collapseTwo"
+            id="flush-collapseTwo"
             class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingTwo"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
               <ul class="service-list">
@@ -166,22 +169,23 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <h2 class="accordion-header" id="flush-headingThree">
             <button
-              class="accordion-button"
+              class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseThree"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseThree"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
             >
               Plan of Assistance
             </button>
           </h2>
           <div
-            id="panelsStayOpen-collapseThree"
+            id="flush-collapseThree"
             class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingThree"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
               <ul class="service-list">
@@ -195,12 +199,14 @@
           </div>
         </div>
       </div>
-      <img
-        src="images/seo.jpg"
-        class="img-fluid seo-picture rounded mt-5"
-        alt="SEO Picture"
-      />
     </div>
+
+    <img
+      src="images/seo.jpg"
+      class="img-fluid seo-picture rounded mt-5"
+      alt="SEO Picture"
+    />
+
     <footer>
       <div class="contact-box justify-content-center mt-5 mb-5 d-md-flex">
         <div>
@@ -209,7 +215,7 @@
         <div>
           <a
             href="contact.html"
-            class="btn btn-primary mt-3"
+            class="btn btn-contact mt-3"
             title="Contact Martinesque"
             >Contact Martinesque</a
           >
@@ -222,6 +228,7 @@
         <span>
           <a
             href="https://www.brittanysak.com"
+            class="source-link"
             target="_blank"
             title="Brittany Sak Developer Website"
           >
@@ -232,6 +239,7 @@
         <span>
           <a
             href="https://github.com/bsak350/cory-project.git"
+            class="source-link"
             target="_blank"
             title="Project GitHub Link"
           >
