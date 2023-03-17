@@ -71,14 +71,15 @@ ul {
 }
 
 .btn-learn {
-  color: black;
-  background: #d39ab1;
+  color: white;
+  background: #7b6194;
   font-size: 20px;
 }
 
 .btn-learn:hover {
-  color: #d39ab1;
-  background: black;
+  color: #7b6194;
+  background: white;
+  border: 1px solid #7b6194;
   transition: all 100ms ease-in-out;
 }
 
