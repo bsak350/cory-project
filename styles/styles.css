@@ -70,31 +70,41 @@ ul {
   transition: all 100ms ease-in-out;
 }
 
-.btn-dark {
-  color: white;
+.btn-learn {
+  color: black;
+  background: #d39ab1;
   font-size: 20px;
 }
 
-.btn-dark:hover {
-  color: black;
-  background-color: white;
+.btn-learn:hover {
+  color: #d39ab1;
+  background: black;
   transition: all 100ms ease-in-out;
 }
 
 .btn-contact {
-  background: white;
-  color: #826993;
+  background: black;
+  color: white;
   font-size: 20px;
 }
 
 .btn-contact:hover {
-  background: #826993;
-  color: white;
+  background: white;
+  color: black;
   transition: all 100ms ease-in-out;
 }
 
-.source-link {
+.source-link,
+.in-touch-link {
   color: black;
+}
+
+.source-link:hover {
+  color: white;
+}
+
+.in-touch-link:hover {
+  color: #826993;
 }
 
 .contact-headings,
